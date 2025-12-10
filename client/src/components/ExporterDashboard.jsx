@@ -29,7 +29,7 @@ const ExporterDashboard = ({ user }) => {
 
   const fetchBatches = async () => {
     try {
-      const res = await axios.get(`http://localhost:5000/api/batches/${user.id}`);
+      const res = await axios.get(`https://agriqcert-1.onrender.com/api/batches/${user.id}`);
       setBatches(res.data);
     } catch (err) { toast.error("Failed to load data"); }
   };
@@ -41,21 +41,21 @@ const ExporterDashboard = ({ user }) => {
 
   // --- ACTIONS ---
   const handleShipOrder = async (id) => {
-    await axios.put(`http://localhost:5000/api/batches/ship/${id}`);
+    await axios.put(`https://agriqcert-1.onrender.com/api/batches/ship/${id}`);
     toast.success("Shipment Approved!");
     fetchBatches();
   };
 
   const handleDeclineOrder = async (id) => {
     if(!window.confirm("Decline this order?")) return;
-    await axios.put(`http://localhost:5000/api/batches/decline/${id}`);
+    await axios.put(`https://agriqcert-1.onrender.com/api/batches/decline/${id}`);
     toast.error("Order Declined");
     fetchBatches();
   };
 
   const handleDelete = async (id) => {
     if (!window.confirm("Delete this batch?")) return;
-    await axios.delete(`http://localhost:5000/api/batches/${id}`);
+    await axios.delete(`https://agriqcert-1.onrender.com/api/batches/${id}`);
     setBatches(batches.filter(batch => batch._id !== id));
     toast.success("Batch Deleted");
   };
@@ -71,7 +71,7 @@ const ExporterDashboard = ({ user }) => {
       data.append('location', formData.location);
       data.append('destination', formData.destination);
       if (files) { for (let i = 0; i < files.length; i++) { data.append('attachments', files[i]); } }
-      await axios.post('http://localhost:5000/api/batches', data, { headers: { 'Content-Type': 'multipart/form-data' } });
+      await axios.post('https://agriqcert-1.onrender.com', data, { headers: { 'Content-Type': 'multipart/form-data' } });
       toast.success('Batch Created!');
       setFormData({ productType: '', quantity: '', location: '', destination: '' });
       setFiles(null);

@@ -20,7 +20,7 @@ const Verify = () => {
   useEffect(() => {
     const fetchBatch = async () => {
       try {
-        const res = await axios.get(`http://localhost:5000/api/batches/verify/${id}`);
+        const res = await axios.get(`https://agriqcert-1.onrender.com/api/batches/verify/${id}`);
         setBatch(res.data);
       } catch (err) {
         console.error(err);

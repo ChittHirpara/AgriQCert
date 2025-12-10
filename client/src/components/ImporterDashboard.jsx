@@ -17,7 +17,7 @@ const ImporterDashboard = ({ user }) => {
 
   const fetchMarket = async () => {
     try {
-      const res = await axios.get('http://localhost:5000/api/batches/market/all');
+      const res = await axios.get('https://agriqcert-1.onrender.com/api/batches/market/all');
       setMarketBatches(res.data);
     } catch (err) { console.error(err); }
   };
@@ -30,7 +30,7 @@ const ImporterDashboard = ({ user }) => {
 
   const handleBuy = async (batch) => {
     try {
-      await axios.put(`http://localhost:5000/api/batches/order/${batch._id}`, { buyerId: user.id });
+      await axios.put(`https://agriqcert-1.onrender.com/api/batches/order/${batch._id}`, { buyerId: user.id });
       toast.success(`Order Request Sent for ${batch.productType}!`);
       fetchMarket(); 
     } catch (err) { toast.error("Failed to place order"); }

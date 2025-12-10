@@ -35,7 +35,7 @@ const Login = ({ setUser }) => {
       : { ...formData, role: selectedRole };
 
     try {
-      const res = await axios.post(`http://localhost:5000${endpoint}`, payload);
+      const res = await axios.post(`https://agriqcert-1.onrender.com${endpoint}`, payload);
       const user = res.data.user;
 
       if (isLogin && user.role !== selectedRole) {

@@ -42,7 +42,7 @@ const QADashboard = ({ user }) => {
 
   const fetchPending = async () => {
     try {
-      const res = await axios.get('http://localhost:5000/api/inspections/pending');
+      const res = await axios.get('https://agriqcert-1.onrender.com/api/inspections/pending');
       setPendingBatches(res.data);
     } catch (err) { console.error(err); }
   };
@@ -85,7 +85,7 @@ const QADashboard = ({ user }) => {
     e.preventDefault();
     setLoading(true);
     try {
-      await axios.post('http://localhost:5000/api/inspections', {
+      await axios.post('https://agriqcert-1.onrender.com/api/inspections', {
         ...form, batchId: selectedBatch._id, qaId: user.id
       });
       toast.success(`Batch Marked as ${form.result}!`);
