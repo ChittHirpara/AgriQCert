@@ -7,7 +7,7 @@
 
 **AgriQCert** is a comprehensive web-based platform designed to streamline the agricultural product certification, inspection, and verification process. The platform enables exporters to submit product batches for quality assessment, QA agencies to conduct inspections and issue digital certificates, and importers/customs authorities to instantly verify product authenticity through QR codes.
 
-![AgriQCert Portal Dashboard](https://via.placeholder.com/1200x400/22c55e/ffffff?text=AgriQCert%20Digital%20Certification%20Platform)
+![AgriQCert Portal Dashboard](https://res.cloudinary.com/dprcvoo9b/image/upload/v1765475320/Screenshot_2025-12-11_231700_fxssub.png)
 
 
 ---
@@ -1136,7 +1136,7 @@ Before deploying to production:
 
 ---
 
-**Last Updated**: December 2024  
+**Last Updated**: December 2025  
 **Maintained By**: Development Team  
 **Status**: Active Development
 
