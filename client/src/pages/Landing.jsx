@@ -189,7 +189,7 @@ const [showDocs, setShowDocs] = useState(false);
                 </span>
               </button>
            </Link>
-           <p className="mt-12 text-gray-600 font-mono text-sm">© 2024 AGRIQCERT PROTOCOL. SECURED BY ETHEREUM.</p>
+           <p className="mt-12 text-gray-600 font-mono text-sm">© 2025 AGRIQCERT PROTOCOL. SECURED BY ETHEREUM.</p>
         </div>
       </div>
 

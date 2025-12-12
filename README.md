@@ -1115,7 +1115,7 @@ This project is licensed under the ISC License.
 
 | Version | Date | Changes |
 |---------|------|---------|
-| 1.0.0 | 2024-01-20 | Initial release with core features |
+| 1.0.0 | 2025-11-26 | Initial release with core features |
 
 ---
 
