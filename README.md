@@ -283,4 +283,4 @@ This project is licensed under the ISC License.
 
 ---
 
-**Deploy it yourself**: Fork the repo, run `npm install` in both folders, set your `.env` variables, and deploy to Vercel (frontend) + Render (backend) — takes < 5 minutes!
+**Deploy it yourself**: Fork the repo, run npm install in both folders, set .env variables, and deploy on Vercel (frontend) + Render (backend) — ⏱️ under 5 minutes.
