@@ -11,6 +11,13 @@
 
 ---
 
+## 🌐 Quick Links
+
+- **Frontend Portal**: https://agri-q-cert.vercel.app/
+- **Backend API**: https://agriqcert-1.onrender.com/
+
+---
+
 ## 💡 Solution Overview
 
 AgriQCert replaces manual, paper-based certification with a secure, digital ecosystem:
@@ -20,16 +27,49 @@ AgriQCert replaces manual, paper-based certification with a secure, digital ecos
 
 ---
 
-## 🚀 Key Features
+## 🚀 Key Features & User Workflows
 
 ### Exporters
-Submit agricultural batches with documentation, track certification status (Submitted → Under Inspection → Certified → Rejected), download digital certificates with QR codes, and manage purchase orders from importers.
+**Workflow**: Register as an exporter → Create and submit agricultural batches with product details and documentation → Track real-time certification status (Submitted → Under Inspection → Certified → Rejected) → Download digital certificates with QR codes → Manage purchase orders received from importers → Update order status (Pending → Shipped → Completed).
+
+**What Exporters Can Do**:
+- Submit multiple batches with product type, quantity, origin location, and export destination
+- Upload lab reports, certifications, quality test documents, and product photographs
+- Monitor batch progress in real-time with status notifications
+- Access inspection results and quality assessment reports
+- Download cryptographically signed digital certificates
+- Generate and share QR codes with international partners
+- Receive purchase orders from importers and manage order fulfillment
+- View order history and export analytics
 
 ### QA Agencies
-Review pending inspections, record standardized quality parameters (moisture, pesticide residue, organic status, ISO compliance), issue digital certificates with timestamps, and maintain audit trails of all actions for compliance.
+**Workflow**: Register as a QA agency → Receive batch inspection requests from exporters → Review pending inspections in queue → Conduct comprehensive quality assessments → Record standardized quality parameters (moisture content, pesticide residue levels, organic certification status, ISO compliance codes) → Make pass/fail decisions → Issue digital certificates with cryptographic signatures and timestamps → Maintain complete audit trails for compliance and accountability.
+
+**What QA Agencies Can Do**:
+- Access all pending batches requiring inspection with exporter details
+- Schedule and manage inspection timelines
+- Record detailed quality measurements and test results
+- Input standardized parameters ensuring consistency across agencies
+- Review historical inspection data and trends
+- Issue official digital certificates upon batch approval
+- Reject batches with detailed reason documentation
+- Maintain audit logs of all actions with timestamps
+- View inspection analytics and certificate issuance reports
 
 ### Importers & Customs
-Instantly verify certificates via QR code scanning or ID lookup, access complete product information and quality parameters, place purchase orders with exporters, and track shipment status in real-time.
+**Workflow**: Register as an importer → Access public certificate verification portal → Scan QR codes or enter certificate IDs for instant authentication → View complete product information, quality parameters, and issuer credentials → Verify batch authenticity and compliance status → Browse available certified batches from different exporters → Place purchase orders with specific quantity and delivery requirements → Track shipment status in real-time → Confirm delivery and maintain purchase history.
+
+**What Importers Can Do**:
+- Instantly verify any certificate by scanning QR code without manual intervention
+- View complete batch details including product type, quantity, origin, and destination
+- Access quality assessment results from QA agencies
+- Verify issuer authenticity and check certificate validity status
+- Search and filter certified batches by product type or exporter
+- Place purchase orders directly from the platform
+- Communicate with exporters regarding orders
+- Track shipment progress from warehouse to destination
+- Maintain complete transaction history and documentation
+- Generate compliance reports for customs authorities
 
 ---
 
