@@ -264,7 +264,7 @@ This project is licensed under the ISC License.
 
 ---
 
-### 📝 Quick Stats for Judges
+### 📊 Project Snapshot
 
 | Metric | Value |
 |--------|-------|
